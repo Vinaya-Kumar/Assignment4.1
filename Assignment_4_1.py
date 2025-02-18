@@ -1,4 +1,4 @@
-!pip install python-dotenv
+pip install python-dotenv
 
 import os
 import json
