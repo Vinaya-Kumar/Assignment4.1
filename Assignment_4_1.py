@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Constants for API configuration
-SERPER_DEV_API_KEY = os.getenv('SERPER_API_KEY')
+SERPER_DEV_API_KEY = os.getenv('SERPER_DEV_API_KEY')
 SEARCH_URL = "https://google.serper.dev/search"
 HEADERS = {
     "X-API-KEY": SERPER_DEV_API_KEY,
